@@ -13,5 +13,7 @@ def sqrtb(x, epsilon):
 
 print(sqrtb(2,2)) #test 1 (black-box)
 print(sqrtb(0.5,90)) #test 2 (black-box)
-print(sqrtb(-6,4)) #test 3 (black-box)
-
+print(sqrtb(6,4)) #test 3 (black-box)
+print(sqrtb(1,90)) #test 4 (white-box) "no entro a ninguna condicional"
+print(sqrtb(8,5)) #test5 (white-box) "entro a else"
+# if no se ejecuta
