@@ -7,10 +7,14 @@ def tweetAlert(msg):
     else:
         return 0
     
-al = "fiebre !!!"
-msg = [ al, "!!!", 44 ]
-i = 0
-print(tweetAlert(msg))
-# while i>len(msg):
-#     print(tweetAlert(msg))
-#     i += 1
+    
+i=3
+cont=0
+al="fiebre"
+msg = ["hola",al,"!!!"]
+while cont< len(msg):
+    msg = "".join(msg[:i])
+    print(tweetAlert(msg))
+    msg = ["hola",al,"!!!"]
+    cont+=1
+    i -=1

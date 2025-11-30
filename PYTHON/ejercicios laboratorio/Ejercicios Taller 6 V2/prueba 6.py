@@ -1,7 +1,7 @@
 def abs(x):
     ''' Asume que x es un entero
 retorna x si x>=0 y -x en otro caso'''
-    if x < -1:
+    if x < -1: 
         return -x
     else:
         return x
