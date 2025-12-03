@@ -17,7 +17,7 @@ def busqueda_binaria(lista, objetivo):
     i = 0
     
     while inicio <= fin:
-        i += 1                          # Contar iteraciones
+        i += 1                          
         medio = (inicio + fin) // 2    
         
         if lista[medio] == objetivo:

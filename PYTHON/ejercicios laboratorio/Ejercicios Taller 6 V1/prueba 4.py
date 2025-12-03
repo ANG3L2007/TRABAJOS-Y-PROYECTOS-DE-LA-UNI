@@ -37,5 +37,7 @@ def f(nums):
     if sroot not in roots:
         roots.append(sroot)
             
-nums = [4,6,2,5,0,12,1,35,5]
+nums = [111,11110,0,10,100,11,1]
+
+print(f(nums))
 
